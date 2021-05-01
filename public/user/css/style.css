@@ -1,0 +1,54 @@
+/*@import url('uikit/css/uikit.docs.min.css');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:500,700&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Exo:200,400,600,700&display=swap&subset=vietnamese');
+/*@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);*/
+
+@font-face {font-family: "LuloCleanW01-OneBold";
+  src: url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); 
+  src: url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"),
+  url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), 
+  url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), 
+  url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), 
+  url("fonts/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); 
+}
+
+*, :after, :before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	outline: none;
+}
+html{
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size:16px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #333;
+  background: #FFF;
+	height: 100%;
+}
+.uk-panel-body{
+    padding: 0px;
+}
+.uk-navbar{
+    border: none;
+}
+.uk-navbar-nav>li>a{
+    text-shadow: none;
+}
+
+@media (max-width: 767px){
+	.uk-grid-medium {
+		margin-left: -10px;
+	}
+	.uk-grid-medium>* {
+		padding-left: 10px;
+	}
+}
+@media (max-width:479px){
+	.uk-container{
+		padding: 0 10px !important;
+	}
+}
